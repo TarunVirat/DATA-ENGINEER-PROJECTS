@@ -1,0 +1,8 @@
+project:
+  name: airflow-astro
+docker:
+  compose:
+    services:
+      postgres:
+        ports:
+          - "5433:5432"
